@@ -1,17 +1,20 @@
+import React from 'react';
+// import ReactDOM from 'react-dom/client';
+import 'bootstrap/dist/css/bootstrap.css';
+import './index.css'
+import LindsayMexico from './LindsayMexico.png';
 
-
-const Home = () => {
+function Home () {
   
-
     return ( 
         <div className="home">
-            <div className="container-fluid picture">
-                <div className="row">
-                    <div className="col">
-                         <img src="Homepage/LindsayMexico.png" className="img-fluid" />
+            <div className="picture" style="container-fluid picture">
+                <Row>
+                    <Column>
+                         <img src={LindsayMexico} alt="LindsayMexicoPic" className="img-fluid" />
                         <div className="top-left">Meet <br />Lindsay Haddix, <br />web developer.</div>
-                    </div>
-                </div>
+                    </Column>
+                </Row>
             </div> 
         </div>
      );
