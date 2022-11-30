@@ -3,12 +3,14 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import './index.css';
 import Col from 'react-bootstrap/Col';
+import Row from 'react-bootstrap/Row';
+import Container from 'react-bootstrap/Container';
 import LindsayHeadshot from './haddix-lindsay.png';
 
 function About () {
     return (
-        <>
-            <div className="bg-light vh-100 justify-content-center">
+        <Container justify-content-center>
+            <Row className="bg-light">
                    <Col md='6' lg='6' sm='12' xs='12'>
                         <h1>About Me</h1>
                         <img src={LindsayHeadshot} alt="headshot of Lindsay" width="300" height="375" />
@@ -28,8 +30,8 @@ function About () {
                         </ul>
                         In my spare time I like to be outside and travel with my husband and two kids. Ask me about any of my many hobbies such as cooking, houseplants, painting, building furniture, gardening, and hiking!</h4>
                     </Col>
-            </div>
-        </>
+            </Row>
+        </Container>
      );
     }
 

@@ -20,7 +20,7 @@ function Projects () {
             <h1>Current and Just Released Projects</h1>
             <br />
             <Row>
-                <Col sm='6'>
+                <Col offset='3' xs='12'>
                     <Card>
                         <Card.Img src={ttt} alt='ttt' className="card-img-top"/>
                         <Card.Body>
@@ -28,7 +28,9 @@ function Projects () {
                         </Card.Body>
                     </Card>
                 </Col>
-                <Col sm='6'>
+            </Row>
+            <Row>
+                <Col offset='3' xs='12'>
                     <Card>
                         <Card.Img src={dothraki} alt='dothraki' className="card-img-top"/>
                         <Card.Body>
@@ -36,19 +38,13 @@ function Projects () {
                         </Card.Body>
                     </Card>
                 </Col>
-                <Col sm='6'>
+            </Row>
+            <Row>
+                <Col offset='3' xs='12'>
                     <Card>
                         <Card.Img src={weatherapp} alt='weatherapp' className="card-img-top"/>
                         <Card.Body>
                             {/* <Card.Link href="https://lynz951.github.io/mind-reader/" class="btn">Play Game</Card.Link> */}
-                        </Card.Body>
-                    </Card>
-                </Col>
-                <Col sm='6'>
-                    <Card>
-                    <Card.Img src={ttt} alt='ttt' className="card-img-top"/>
-                        <Card.Body>
-                            {/* <Card.Link href="https://lah-dothraki-translator.glitch.me/" class="btn">Play Game</Card.Link> */}
                         </Card.Body>
                     </Card>
                 </Col>

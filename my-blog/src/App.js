@@ -10,7 +10,6 @@ import Footer from './Footer';
 
 
 function App() {
-    // const[ page ] = useState('home')
 
     return (
         <>
