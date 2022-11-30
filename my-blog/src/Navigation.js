@@ -1,20 +1,21 @@
 import React from 'react';
 // import ReactDOM from 'react-dom/client';
 import 'bootstrap/dist/css/bootstrap.css';
-import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import './index.css'
+import logo from './finalwhite.png'
 
 function Navigation() {
   return (
-    <Container>
+    <div>
       <Navbar expand="lg" variant="light" bg="light">
-        <Container>
+        <div>
+          <img id='logo' alt='logo' src={logo} />
           <Navbar.Brand href="#">Home</Navbar.Brand>
           <Navbar.Brand href="#">About</Navbar.Brand>
-        </Container>
+        </div>
       </Navbar>
-    </Container>
+    </div>
   );
 }
 

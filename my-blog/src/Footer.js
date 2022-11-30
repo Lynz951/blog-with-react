@@ -1,17 +1,20 @@
 import React from 'react';
 // import ReactDOM from 'react-dom/client';
 import 'bootstrap/dist/css/bootstrap.css';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+
 import './index.css'
 
 function Footer() {
 
     return(
     <>
-    <div className="container">
-        <div className="row">
+    <Container>
+        <Row>
             <div className="col-sm-12 col-md-6">
                 <h6>About</h6>
-                <p className="text-justify">I am a web development student at Awesome, Inc. in Lexington, Kentucky</p>
+                <h6 className="text-justify">I am a web development student at Awesome, Inc. in Lexington, Kentucky</h6>
             </div>
 
             <div className="col-xs-6 col-md-3">
@@ -21,16 +24,12 @@ function Footer() {
                     <li><a href="mailto:lynzhaddix951@gmail.com">Email Me</a></li>
                 </ul>
             </div>
-        </div>
+        </Row>
         <br />
-    </div>
+    </Container>
     
     <div className="container">
         <div className="row">
-            <div className="col-md-8 col-sm-6 col-xs-12">
-                <p className="copyright-text"></p>
-            </div>
-
             <div className="col-md-4 col-sm-6 col-xs-12">
                 <ul className="social-icons">
                     <li><a className="facebook" href="https://www.facebook.com/lindsay.w.haddix/"><i className="fa fa-facebook"></i></a></li>
