@@ -12,9 +12,9 @@ function Navigation() {
         <div>
           <img id='logo' alt='logo' src={logo} />
   
-          <Navbar.Brand className="aboutbtn" onClick={() => window.location.replace("/#about")}>
+          {/* <Navbar.Brand className="aboutbtn" onClick={() => window.location.replace("/#about")}>
               <span>About Me</span>
-          </Navbar.Brand>
+          </Navbar.Brand> */}
 
           {/* <Navbar.Brand href="#">Home</Navbar.Brand> */}
           {/* <Navbar.Brand href="#">About</Navbar.Brand> */}
