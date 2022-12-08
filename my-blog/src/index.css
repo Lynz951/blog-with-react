@@ -9,9 +9,19 @@ body, html {
   color: #565451;
 }
 
+.header {
+  padding-left: 90px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
 #logo {
-  height: 50px;
-  width: 50 px;
+  height: 90px;
+  width: 90 px;
+}
+
+.aboutbtn {
+  padding-left: 20px;
 }
 
 .picture {
@@ -20,13 +30,15 @@ body, html {
   color: #F8F9FA;
   background-repeat: no-repeat;
   background-size: auto;
+  padding-right: 90px;
+  padding-left: 90px;
 }
 
 .top-left {
   position: absolute;
-  top: 8px;
-  left: 35px;
-  font-size: 35px;
+  top: 25px;
+  left: 125px;
+  font-size: 55px;
 }
 
 .btn {
@@ -34,3 +46,6 @@ body, html {
   background-color:  #F7A731   
   }
 
+  .About {
+    padding: 50px;
+  }

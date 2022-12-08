@@ -7,12 +7,17 @@ import logo from './finalwhite.png'
 
 function Navigation() {
   return (
-    <div>
+    <div className= 'header'>
       <Navbar expand="lg" variant="light" bg="light">
         <div>
           <img id='logo' alt='logo' src={logo} />
-          <Navbar.Brand href="#">Home</Navbar.Brand>
-          <Navbar.Brand href="#">About</Navbar.Brand>
+  
+          <Navbar.Brand className="aboutbtn" onClick={() => window.location.replace("/#about")}>
+              <span>About Me</span>
+          </Navbar.Brand>
+
+          {/* <Navbar.Brand href="#">Home</Navbar.Brand> */}
+          {/* <Navbar.Brand href="#">About</Navbar.Brand> */}
         </div>
       </Navbar>
     </div>

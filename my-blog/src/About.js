@@ -9,10 +9,12 @@ import LindsayHeadshot from './haddix-lindsay.png';
 
 function About () {
     return (
-        <Container justify-content-center>
+       
+        <Container className='About' justify-content-center>
+             <h2 id="about">About Me</h2>
             <Row className="bg-light">
                    <Col md='6' lg='6' sm='12' xs='12'>
-                        <h1>About Me</h1>
+                        
                         <img src={LindsayHeadshot} alt="headshot of Lindsay" width="300" height="375" />
                     </Col>
                     
